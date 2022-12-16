@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+.dark-body {
+  background-color: hsl(230, 17%, 14%);
+}
+.back-color {
+  width: 100vw;
+  height: 35vh;
+  border-radius: 2rem;
+  background-color: hsl(225, 100%, 98%);
+}
+.dark-back-color {
+  background-color: hsl(232, 19%, 15%);
+}
+
+.om {
+  color: hsl(228, 12%, 44%);
+}
+h1 {
+  font-family: "Inter", sans-serif;
+}
+.dark-h1 {
+  color: white;
+}
+
+h4 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+}
+h5 {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: medium;
+  font-family: "Inter", sans-serif;
+}
+
+b {
+  font-size: 0.8rem;
+}
+
+.dark-h5 {
+  color: hsl(228, 7%, 59%);
+}
+h6 {
+  font-size: 1rem;
+  color: hsl(228, 12%, 44%);
+}
+
+.full-card {
+  margin: -15rem 15rem;
+  height: 37rem;
+  width: auto;
+  display: grid;
+  grid-template-columns: 0.16fr 0.16fr 0.16fr 0.16fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.item1 {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1/-1;
+}
+
+.item6 {
+  grid-column: 1/-1;
+}
+
+.ox {
+  width: auto;
+  height: 4rem;
+  color: black;
+}
+
+.over-text {
+  font-family: "Inter", sans-serif;
+  font-size: x-large;
+  color: hsl(228, 12%, 44%);
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+.dark-h2 {
+  color: white;
+}
+
+p {
+  margin-top: -1rem;
+  font-size: large;
+  letter-spacing: 0.3rem;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up {
+  height: 0.3rem;
+}
+
+.today {
+  color: hsl(163, 72%, 41%);
+}
+
+.color-dbtext {
+  color: hsl(356, 69%, 56%);
+}
+
+.days {
+  margin-top: 0.5rem;
+}
+
+.it {
+  width: 16rem;
+  height: 12rem;
+  border-radius: 0.4rem;
+  border-top: 3.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  background-color: hsl(227, 47%, 96%);
+  font-family: "Inter", sans-serif;
+}
+.it:hover {
+  cursor: pointer;
+  background-color: hsla(228, 33%, 67%, 0.258);
+}
+
+.dark-it {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.border-blue {
+  border-color: hsl(208, 92%, 53%);
+}
+
+.border-instagram {
+  border-color: rgb(242, 79, 106);
+}
+
+.border-twitter {
+  border-color: hsl(348, 97%, 39%);
+}
+
+img {
+  margin: 0 0.5rem 0 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.io {
+  width: 16rem;
+  height: 7rem;
+  border-radius: 0.4rem;
+  background-color: hsl(227, 47%, 96%);
+  font-family: "Inter", sans-serif;
+}
+.io:hover {
+  cursor: pointer;
+  background-color: hsla(228, 33%, 67%, 0.258);
+}
+.dark-io {
+  background-color: hsl(228, 28%, 20%);
+}
+.trans {
+  color: hsl(228, 12%, 44%);
+}
+
+.theem {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item6 {
+  display: flex;
+  align-items: center;
+}
+.ov {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.al {
+  height: auto;
+  width: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.dark-h3 {
+  color: white;
+}
+.p1 {
+  color: hsl(163, 72%, 41%);
+}
+
+.persenteg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*  Here We Add a Important Property Is CSS Media Query  */

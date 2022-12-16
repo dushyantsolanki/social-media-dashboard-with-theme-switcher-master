@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- Heading Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+  <!--  regular Text -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <style>
+    .checkbox-wrapper-3 input[type="checkbox"] {
+      visibility: hidden;
+      display: none;
+    }
+
+    .checkbox-wrapper-3 .toggle {
+      position: relative;
+      display: block;
+      width: 40px;
+      height: 20px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .checkbox-wrapper-3 .toggle:before {
+      content: "";
+      position: relative;
+      top: 3px;
+      left: 3px;
+      width: 34px;
+      height: 14px;
+      display: block;
+      background: #9A9999;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .checkbox-wrapper-3 .toggle span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      display: block;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper-3 .toggle span:before {
+      content: "";
+      position: absolute;
+      display: block;
+      margin: -18px;
+      width: 56px;
+      height: 56px;
+      background: rgba(79, 46, 220, 0.5);
+      border-radius: 50%;
+      transform: scale(0);
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .checkbox-wrapper-3 #cbx-3:checked+.toggle:before {
+      background: #947ADA;
+    }
+
+    .checkbox-wrapper-3 #cbx-3:checked+.toggle span {
+      background: #4F2EDC;
+      transform: translateX(20px);
+      transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+      box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+    }
+
+    .checkbox-wrapper-3 #cbx-3:checked+.toggle span:before {
+      transform: scale(1);
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+  </style>
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+
+<body>
+
+  <div class="back-color"></div>
+
+
+  <div class="full-card">
+
+    <div class="item1 ox ">
+      <div class="head1">
+        <h1>Social Media Dashboard</h1>
+        <h5 class="om">Total Followers: 23,004</h5>
+      </div>
+
+      <div class="theem">
+        <div class="btn-text">
+          <h4>Dark Mode</h4>
+        </div>
+        <div class="checkbox-wrapper-3">
+          <input type="checkbox" id="cbx-3" />
+          <label for="cbx-3" class="toggle"><span></span></label>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="item2 it border-blue">
+
+      <div class="header">
+
+        <img src="/images/icon-facebook.svg" alt="">
+
+        <div class="text">
+          <h4>@nathanf</h4>
+        </div>
+
+      </div>
+
+      <div class="number">
+        <h2>
+          1987</h2>
+      </div>
+      <p class="trans">
+        Followers
+      </p>
+      <div class="days">
+        <img class="up" src="/images/icon-up.svg" alt="">
+        <div class="today"><b>12 Today</b> </div>
+      </div>
+    </div>
+
+    <div class="item3 it border-blue">
+
+      <div class="header">
+
+        <img src="/images/icon-twitter.svg" alt="">
+
+        <div class="text">
+          <h4>@nathanf</h4>
+        </div>
+
+      </div>
+
+      <div class="number">
+        <h2>
+          1044</h2>
+      </div>
+      <p class="trans">
+        Followers
+      </p>
+      <div class="days">
+        <img class="up" src="/images/icon-up.svg" alt="">
+        <div class="today"><b>99 Today</b> </div>
+      </div>
+    </div>
+
+    <div class="item4 it border-instagram">
+
+      <div class="header">
+
+        <img src="/images/icon-instagram.svg" alt="">
+
+        <div class="text">
+          <h4>@nathanf</h4>
+        </div>
+
+      </div>
+
+      <div class="number">
+        <h2>
+          11k</h2>
+      </div>
+      <p class="trans">
+        Followers
+      </p>
+      <div class="days">
+        <img class="up" src="/images/icon-up.svg" alt="">
+        <div class="today"><b>1099 Today</b> </div>
+      </div>
+
+
+    </div>
+
+    <div class="item5 it border-twitter">
+
+      <div class="header">
+
+        <img src="/images/icon-youtube.svg" alt="">
+
+        <div class="text">
+          <h4>Nnathan F.</h4>
+        </div>
+
+      </div>
+
+      <div class="number">
+        <h2>
+          8239</h2>
+      </div>
+      <p class="trans">
+        Followers
+      </p>
+      <div class="days">
+        <img class="up" src="/images/icon-down.svg" alt="">
+        <div class="today color-dbtext"><b>144 Today</b> </div>
+      </div>
+    </div>
+
+
+    <div class="item6 ox ">
+      <h3 class="over-text">Overview - Today</h3>
+    </div>
+
+
+    <div class="item7 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Page Views </h6>
+          </div>
+          <img src="/images/icon-facebook.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>87</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-up.svg" alt="">
+            <div class="p1"><b>3%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item8 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Likes </h6>
+          </div>
+          <img src="/images/icon-facebook.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>52</h3>
+          </div>
+          <div class="persenteg color-dbtext">
+            <img src="/images/icon-down.svg" alt="">
+            <div class="color-dbtext"><b>2%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item9 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Likes</h6>
+          </div>
+          <img src="/images/icon-instagram.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>5462</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-up.svg" alt="">
+            <div class="p1"><b>2257%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item10 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Profile Views</h6>
+          </div>
+          <img src="/images/icon-facebook.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>52k</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-up.svg" alt="">
+            <div class="p1"><b>1375%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item11 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Retweets </h6>
+          </div>
+          <img src="/images/icon-twitter.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>117</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-up.svg" alt="">
+            <div class="p1"><b>303%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Likes</h6>
+          </div>
+          <img src="/images/icon-twitter.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>507</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-up.svg" alt="">
+            <div class="p1"><b>553%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item13 io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Likes </h6>
+          </div>
+          <img src="/images/icon-youtube.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>107</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-down.svg" alt="">
+            <div class="color-dbtext"><b>19%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item io">
+
+      <div class="box ov">
+        <div class="upper al">
+          <div class="views">
+            <h6>Total Views</h6>
+          </div>
+          <img src="/images/icon-youtube.svg" alt="">
+        </div>
+        <div class="lower al">
+          <div class="bold-text">
+            <h3>1407</h3>
+          </div>
+          <div class="persenteg">
+            <img src="/images/icon-down.svg" alt="">
+            <div class="color-dbtext"><b>12%</b> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
