@@ -236,43 +236,4 @@ h3 {
 
 /*  Here We Add a Important Property Is CSS Media Query  */
 
-@media (max-width: 700px) {
 
-  h1 {
-    margin-bottom: -0.8rem;
-    font-size: 1.3rem;
-    font-family: "Inter", sans-serif;
-  }
-  .full-card {
-    margin: -15rem 1rem;
-    top: -1rem;
-    left: 16rem;
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    column-gap: 0;
-  }
-
-  .it {
-    width: 16rem;
-    height: 12rem;
-    border-radius: 0.4rem;
-    row-gap: 0.4rem;
-  }
-  .item1 {
-    margin: 0rem 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .theem {
-    margin-top: 1.5rem;
-    width: 14rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
