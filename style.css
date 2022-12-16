@@ -237,6 +237,7 @@ h3 {
 /*  Here We Add a Important Property Is CSS Media Query  */
 
 @media (max-width: 700px) {
+
   h1 {
     margin-bottom: -0.8rem;
     font-size: 1.3rem;
@@ -244,6 +245,8 @@ h3 {
   }
   .full-card {
     margin: -15rem 1rem;
+    top: -10rem;
+    left: 16rem;
     height: auto;
     width: auto;
     display: flex;
