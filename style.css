@@ -4,12 +4,14 @@
 }
 body {
   background-color: hsl(0, 0%, 100%);
+  position: relative;
+  overflow: scroll;
 }
 .dark-body {
   background-color: hsl(230, 17%, 14%);
 }
 .back-color {
-  width: 100vw;
+  width: 112rem;
   height: 35vh;
   border-radius: 2rem;
   background-color: hsl(225, 100%, 98%);
@@ -52,7 +54,10 @@ h6 {
 }
 
 .full-card {
-  margin: -15rem 15rem;
+  z-index: 1;
+  position: relative;
+  top: -15rem;
+  left: 16rem;
   height: 37rem;
   width: auto;
   display: grid;
@@ -137,6 +142,7 @@ p {
 .it:hover {
   cursor: pointer;
   background-color: hsla(228, 33%, 67%, 0.258);
+  transition: ease-in-out 0.3s;
 }
 
 .dark-it {
@@ -175,6 +181,7 @@ img {
 .io:hover {
   cursor: pointer;
   background-color: hsla(228, 33%, 67%, 0.258);
+  transition: ease-in-out 0.3s;
 }
 .dark-io {
   background-color: hsl(228, 28%, 20%);
@@ -252,12 +259,11 @@ h3 {
     row-gap: 0.4rem;
   }
   .item1 {
-    margin: 0.rem 0;
+    margin: 0rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
   }
   .theem {
     margin-top: 1.5rem;
@@ -266,5 +272,4 @@ h3 {
     align-items: center;
     justify-content: space-between;
   }
-  
 }
