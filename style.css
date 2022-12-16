@@ -11,7 +11,7 @@ body {
   background-color: hsl(230, 17%, 14%);
 }
 .back-color {
-  width: 112rem;
+  width: 130rem;
   height: 35vh;
   border-radius: 2rem;
   background-color: hsl(225, 100%, 98%);
@@ -57,7 +57,8 @@ h6 {
   z-index: 1;
   position: relative;
   top: -15rem;
-  left: 16rem;
+  left: 25rem;
+  right: 25rem;
   height: 37rem;
   width: auto;
   display: grid;
