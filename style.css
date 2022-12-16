@@ -227,5 +227,16 @@ h3 {
   justify-content: center;
 }
 
-
 /*  Here We Add a Important Property Is CSS Media Query  */
+
+@media (max-width: 1340px) {
+  .full-card {
+    margin: -15rem 15rem;
+    height: 37rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    column-gap: 0;
+  }
+}
