@@ -228,7 +228,7 @@ h3 {
 
 @media (max-width: 575px) {
   body {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     place-items: center;
@@ -245,6 +245,7 @@ h3 {
     row-gap: 1rem;
   }
   .item1 {
+    width: 22rem;
     margin-bottom: 3.5rem;
     border-bottom: 2px solid hsl(227, 47%, 96%);
     display: flex;
@@ -282,7 +283,7 @@ h3 {
     border-color: hsl(348, 97%, 39%);
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: "Inter", sans-serif;
   }
   .io {
@@ -291,11 +292,10 @@ h3 {
 
   .theem {
     margin: 2rem 0;
-    width: 17rem;
+    width: 21rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
-  
 }
