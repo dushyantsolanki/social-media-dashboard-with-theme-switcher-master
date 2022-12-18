@@ -48,7 +48,7 @@ h6 {
 }
 
 .full-card {
-  height: 37rem;
+  height: 40rem;
   width: auto;
   display: grid;
   grid-template-columns: 0.16fr 0.16fr 0.16fr 0.16fr;
