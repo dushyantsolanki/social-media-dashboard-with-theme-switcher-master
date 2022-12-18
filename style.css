@@ -245,7 +245,7 @@ h3 {
     row-gap: 1rem;
   }
   .item1 {
-    width: 22rem;
+    width: 19rem;
     margin-bottom: 3.5rem;
     border-bottom: 2px solid hsl(227, 47%, 96%);
     display: flex;
@@ -255,7 +255,7 @@ h3 {
     margin-top: 0;
   }
   .it {
-    width: 22rem;
+    width: 19rem;
     height: 12rem;
     border-radius: 0.4rem;
     border-top: 3.5px solid black;
